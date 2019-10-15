@@ -4,6 +4,8 @@ A simple tool to create a vocabulary list from a video (youtube link). Currently
 It takes a youtube URL or textfile and creates a list of all the words used in the video or text. The words are the saved in a .csv file together with their translation. This .csv file can then for example be directly imported into Anki so you can learn exactly the words needed to understand your chosen Video/Text.
 
 Currently the tool is very basic and not polished at all. The speech recognition as well as translation services used do not work with 100% accuracy, so the results will be far from perfect.
+
+At the moment it is only possible to make lists translating a __German__ video or text to __English__.
 ## Getting Started
 How to run this tool.
 ### Prerequisites
