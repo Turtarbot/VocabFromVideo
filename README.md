@@ -18,7 +18,9 @@ The destination should be a local path to wherever you want your .csv vocabulary
 
 ## Additional Options
 Instead of a Youtube Video you might want to use a text file as source. To do so, you have to change the input type by adding the `-t T` or `--input-type T` parameter (T for Text, default is Y for Youtube).
+
 If the tool is not working you can also get some more error messages by setting the --debug flag.
+
 `python start.py source destination -t T DE EN --debug`
 
 ## License
