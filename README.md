@@ -11,7 +11,10 @@ How to run this tool.
 ### Prerequisites
 Make sure you have Python 3.5 or later installed.
 In addition to you need the following packages:
-* TODO
+* spacy
+* translate
+* youtube_dl
+* speech_recognition
 ### Running VocabFromVideo
 Assuming you have Python added to your PATH, run start.py in it's folder with the following arguments:
 
