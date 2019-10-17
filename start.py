@@ -1,3 +1,5 @@
+# Copyright (C) 2019  Patricia C. Zauleck
+
 import shutil
 import argparse
 import sys
