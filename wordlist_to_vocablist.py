@@ -1,3 +1,5 @@
+# Copyright (C) 2019  Patricia C. Zauleck
+
 import csv
 import os
 import translate
