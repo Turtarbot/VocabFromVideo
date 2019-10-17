@@ -32,7 +32,3 @@ If the tool is not working you can also get some more error messages by setting 
 
 ## License
 This project is licensed under the GNU General Public License v3.0
-
-## Acknowledgments
-
-* TODO
