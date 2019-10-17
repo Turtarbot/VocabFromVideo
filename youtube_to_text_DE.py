@@ -1,3 +1,5 @@
+# Copyright (C) 2019  Patricia C. Zauleck
+
 import youtube_dl
 import speech_recognition
 import os
