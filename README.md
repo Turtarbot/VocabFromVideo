@@ -10,12 +10,13 @@ At the moment it is only possible to make lists translating a __German__ video o
 How to run this tool.
 ### Prerequisites
 Make sure you have Python 3.5 or later.
-You have to have either [FFmpeg](https://www.ffmpeg.org/) or [Libav](https://libav.org/) installed and added to your PATH.
 In addition you need the following packages:
 * [spacy](https://pypi.org/project/spacy/)
 * [translate](https://pypi.org/project/translate/)
 * [youtube_dl](https://pypi.org/project/youtube_dl/)
 * [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+
+youtube_dl is dependent on having either [FFmpeg](https://www.ffmpeg.org/) or [Libav](https://libav.org/) installed and added to your PATH.
 ### Running VocabFromVideo
 Assuming you have Python added to your PATH, run start.py in it's folder with the following arguments:
 
