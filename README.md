@@ -13,7 +13,7 @@ Make sure you have Python 3.5 or later installed.
 In addition you need the following packages:
 * [spacy](https://pypi.org/project/spacy/)
 * [translate](https://pypi.org/project/translate/)
-* [youtube-dl](https://pypi.org/project/youtube_dl/)
+* [youtube_dl](https://pypi.org/project/youtube_dl/)
 * [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 ### Running VocabFromVideo
 Assuming you have Python added to your PATH, run start.py in it's folder with the following arguments:
