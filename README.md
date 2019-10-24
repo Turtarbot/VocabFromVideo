@@ -17,13 +17,18 @@ In addition you need the following packages:
 * [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 
 youtube_dl is dependent on having either [FFmpeg](https://www.ffmpeg.org/) or [Libav](https://libav.org/) installed and added to your PATH.
+
 I am using SpeechRecognition with PocketSphinx, which means that to use German text recognition a German language model and dictionary have to be added manually. To do so, download 
 * cmusphinx-voxforge-de.lm.bin
 * cmusphinx-voxforge-de.dic
 * cmusphinx-de-voxforge-5.2.tar.gz
+
 [HERE](https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/German/)
+
 Now go to your speech_recognition/pocketsphinx-data folder and create a new folder called "de-DE". Put the first two files in the folder. Deep in "cmusphinx-de-voxforge-5.2.tar.gz" is a folder called "voxforge.cd_cont_6000".
+
 `cmusphinx-de-voxforge-5.2.tar\cmusphinx-de-voxforge-5.2\cmusphinx-cont-voxforge-de-r20171217\model_parameters\voxforge.cd_cont_6000`
+
 Rename "voxforge.cd_cont_6000" to "acoustic-model" and also place it into your created "de-DE" folder.
 ### Running VocabFromVideo
 Assuming you have Python added to your PATH, run start.py in it's folder with the following arguments:
